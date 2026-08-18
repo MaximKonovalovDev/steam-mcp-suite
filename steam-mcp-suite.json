@@ -1,0 +1,73 @@
+{
+  "slug": "steam-mcp-suite",
+  "name": "Steam MCP Suite",
+  "tagline": "Steam + itch storefront intelligence for your AI agents - search, reviews, wishlist analytics, shipping hooks",
+  "description": "Free OSS MCP servers (MIT) combining Steam store search/prices/discounts, review sentiment with NLP topic drill-down and smart caching, wishlist/dev-portal analytics, and itch.io hooks. The Steam lane is empty in the MCP registries (verified 2026-08-13: zero Steam-store/itch/analytics/playtest MCP servers on Smithery). Monetization: free self-hosted core + hosted tier or per-call (RapidAPI/x402) + paid skill-pack wrappers.",
+  "stage": "pre_launch",
+  "niche": "gamedev",
+  "price": 29,
+  "urls": {
+    "site": "",
+    "github": "",
+    "docs": "",
+    "demo": ""
+  },
+  "keywords": [
+    "steam mcp",
+    "steam api mcp",
+    "mcp server game",
+    "steam reviews analysis",
+    "itch.io mcp",
+    "steam wishlist analytics",
+    "game analytics mcp"
+  ],
+  "platforms": {
+    "registries": [
+      "smithery",
+      "glama",
+      "pulsemcp"
+    ],
+    "reddit": {
+      "subreddits": [
+        "gamedev",
+        "MCP",
+        "modelcontextprotocol",
+        "Steam",
+        "indiegames"
+      ],
+      "max_posts_per_week": 3
+    },
+    "forums": [
+      {
+        "name": "GameDev.net",
+        "url": "https://www.gamedev.net"
+      },
+      {
+        "name": "itch.io community",
+        "url": "https://itch.io/community"
+      }
+    ],
+    "discord": [
+      "gamedev",
+      "MCP servers"
+    ]
+  },
+  "personas": [
+    "technical_expert",
+    "helpful_indie"
+  ],
+  "voice": {
+    "tone": "operator of a small AI studio, honest, concrete",
+    "rules": [
+      "no links in top-level posts",
+      "lead with what the MCP lets an AI agent DO, not the protocol",
+      "be honest about limits",
+      "sound human, include imperfections"
+    ]
+  },
+  "launch_date": null,
+  "notes": "Lane GD-L1. Seed forks: Grinv/steam-games-mcp (4* MIT active), jhomen368/steam-reviews-mcp (3* MIT, 70-85% API cut caching), sharkusmanch/steam-mcp-server (4* MIT), petrarka/itch-jams-mcp (0* MIT). Demand: 'steam mcp' autocomplete 10/10. Mine sheet: data/research/game-dev-mine-sheet.json rank 2 (score 79).",
+  "direction": "d1",
+  "direction_name": "ai-gamedev-tools",
+  "tier": "core"
+}

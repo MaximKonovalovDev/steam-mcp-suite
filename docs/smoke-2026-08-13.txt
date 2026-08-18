@@ -1,0 +1,42 @@
+
+> steam-mcp-suite@1.0.0 smoke
+> node scripts/smoke.mjs
+
+[PASS] initialize :: steam-mcp-suite
+[PASS] tools/list (20 tools) :: search_games, get_game, get_prices, get_specials, get_game_reviews, analyze_reviews, get_game_news, get_current_players, get_global_achievem
+[PASS] search_games :: {"query":"Hades","store_total":10,"returned":10,"note":"Steam returns only the top-ranked ΓÇª
+[PASS] get_game :: {"appid":1145360,"name":"Hades","short_description":"Defy the god of the dead as you hack ΓÇª
+[PASS] get_prices :: {"returned":3,"prices":[{"appid":1145360,"available":true,"name":"Hades","is_free":false,"ΓÇª
+[PASS] get_specials :: {"returned":10,"deals":[{"appid":2552430,"name":"KINGDOM HEARTS -HD 1.5+2.5 ReMIX-","url":ΓÇª
+[PASS] get_game_reviews :: {"appid":1145360,"summary":{"totalReviews":307514,"totalPositive":301404,"totalNegative":6ΓÇª
+[PASS] analyze_reviews :: {"appid":1145360,"summary":"Analyzed 30 reviews: 80% positive, 20% negative. Overall sentiΓÇª
+[PASS] get_game_news :: {"appid":1145360,"count":2,"items":[{"title":"Watch the Hades Orchestral Concert, Live froΓÇª
+[PASS] get_current_players :: {"app_id":570,"current_players":609696}
+[PASS] get_global_achievements :: {"appid":1145360,"count":49,"achievements":[{"name":"AchClearTartarus","percent":"81.9"},{ΓÇª
+[PASS] get_wishlist :: {"found":false,"reason":"Wishlist not found ΓÇö the profile is private or the steamid doesn'ΓÇª
+[PASS] get_itch_jams :: {"filter":"active","page":1,"total":493,"jams":[{"id":408466,"title":"Kenney Jam 2026","urΓÇª
+[PASS] search_itch_jams :: {"query":"game","filter":"all","scanned":493,"matched":160,"jams":[{"id":414076,"title":"SΓÇª
+[PASS] get_jam_details :: {"title":"Micro Jam 055: Horror ($350+ Prizes)","url":"https://itch.io/jam/micro-jam-055",ΓÇª
+[PASS] get_cache_stats :: {"size":10,"hits":0,"misses":10,"hitRate":0,"note":"Hits are upstream calls avoided entireΓÇª
+[PASS] get_owned_games (no key ΓåÆ structured degradation) :: no steamid was given and STEAM_ID is not set. Pass a 17-digit SteamID64, or set STEAM_ID (a SteamID64 or vanity name) in the server config.
+[PASS] get_player_summary (no key ΓåÆ structured degradation) :: no steamid was given and STEAM_ID is not set. Pass a 17-digit SteamID64, or set STEAM_ID (a SteamID64 or vanity name) in the server config.
+[PASS] resolve_vanity_url (no key ΓåÆ structured degradation) :: STEAM_API_KEY is not set. This tool needs the (free) Steam Web API key. Get one at https://steamcommunity.com/dev/apikey and start the serve
+[PASS] get_recently_played (no key ΓåÆ structured degradation) :: no steamid was given and STEAM_ID is not set. Pass a 17-digit SteamID64, or set STEAM_ID (a SteamID64 or vanity name) in the server config.
+[PASS] get_player_achievements (no key ΓåÆ structured degradation) :: no steamid was given and STEAM_ID is not set. Pass a 17-digit SteamID64, or set STEAM_ID (a SteamID64 or vanity name) in the server config.
+[PASS] get_achievement_summary (no key ΓåÆ structured degradation) :: no steamid was given and STEAM_ID is not set. Pass a 17-digit SteamID64, or set STEAM_ID (a SteamID64 or vanity name) in the server config.
+[PASS] analyze_reviews (2nd call, cached) :: {"appid":1145360,"summary":"Analyzed 30 reviews: 80% positive, 20% negative. Overall sentiΓÇª
+[PASS] get_cache_stats (after repeat) :: {"size":10,"hits":1,"misses":10,"hitRate":9.090909090909092,"note":"Hits are upstream callΓÇª
+[PASS] search_games (invalid input) :: Validation error
+[PASS] get_game (invalid input) :: Validation error
+[PASS] get_prices (invalid input) :: Validation error
+[PASS] get_game_reviews (invalid input) :: Validation error
+[PASS] analyze_reviews (invalid input) :: Validation error
+[PASS] get_wishlist (invalid input) :: Validation error
+[PASS] get_owned_games (invalid input) :: Validation error
+[PASS] get_itch_jams (invalid input) :: Validation error
+[PASS] search_itch_jams (invalid input) :: Validation error
+[PASS] get_jam_details (invalid input) :: Validation error
+[PASS] resolve_vanity_url (invalid input) :: Validation error
+[PASS] totally_unknown_tool (invalid input) :: Unknown tool: totally_unknown_tool
+
+===== RESULT: 36 passed, 0 failed =====

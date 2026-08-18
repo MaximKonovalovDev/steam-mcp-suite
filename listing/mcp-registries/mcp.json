@@ -1,0 +1,17 @@
+{
+  "name": "steam-mcp-suite",
+  "version": "0.1.0",
+  "description": "Steam Mcp Suite \u2014 an MCP server.",
+  "command": "npx",
+  "args": [
+    "-y",
+    "steam-mcp-suite"
+  ],
+  "env": {},
+  "runtime": "node",
+  "keywords": [
+    "steam",
+    "mcp",
+    "suite"
+  ]
+}

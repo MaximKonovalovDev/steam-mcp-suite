@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "style": "answer-card: one fact, big text, brand color band, 1000x1500",
+    "text": "Steam Mcp Suite: fact 1 (en)",
+    "subtext": "studioai",
+    "lang": "en"
+  },
+  {
+    "id": 2,
+    "style": "answer-card: one fact, big text, brand color band, 1000x1500",
+    "text": "Steam Mcp Suite: fact 2 (en)",
+    "subtext": "studioai",
+    "lang": "en"
+  },
+  {
+    "id": 3,
+    "style": "answer-card: one fact, big text, brand color band, 1000x1500",
+    "text": "Steam Mcp Suite: fact 3 (en)",
+    "subtext": "studioai",
+    "lang": "en"
+  },
+  {
+    "id": 4,
+    "style": "answer-card: one fact, big text, brand color band, 1000x1500",
+    "text": "Steam Mcp Suite: fact 4 (en)",
+    "subtext": "studioai",
+    "lang": "en"
+  },
+  {
+    "id": 5,
+    "style": "answer-card: one fact, big text, brand color band, 1000x1500",
+    "text": "Steam Mcp Suite: fact 5 (en)",
+    "subtext": "studioai",
+    "lang": "en"
+  }
+]

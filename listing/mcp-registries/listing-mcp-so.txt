@@ -1,0 +1,6 @@
+**Name:** Steam Mcp Suite
+**Tagline:** Steam Mcp Suite — an MCP server.
+**Description:** Steam Mcp Suite — an MCP server.
+**Keywords:** steam, mcp, suite
+**Repository:** https://github.com/studioai/steam-mcp-suite
+**Language:** en

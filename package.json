@@ -1,0 +1,51 @@
+{
+  "name": "steam-mcp-suite",
+  "version": "1.0.0",
+  "description": "GD-L1 Steam MCP Suite — combined Steam + itch.io storefront intelligence for LLM agents: store search, prices/discounts, reviews with NLP sentiment, news, wishlist & player analytics (Steam Web API key optional), and itch.io game jams (keyless).",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "steam",
+    "steam-api",
+    "itch.io",
+    "game-jam",
+    "sentiment-analysis",
+    "llm",
+    "claude",
+    "games"
+  ],
+  "bin": {
+    "steam-mcp-suite": "./build/entry.js"
+  },
+  "main": "build/entry.js",
+  "files": [
+    "build/",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "skills/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "start": "node build/index.js",
+    "smoke": "node scripts/smoke.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "axios": "^1.7.9",
+    "cheerio": "^1.2.0",
+    "natural": "^8.0.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

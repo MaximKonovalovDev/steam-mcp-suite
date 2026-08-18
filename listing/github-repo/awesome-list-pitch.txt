@@ -1,0 +1,2 @@
+# One-line pitch for awesome-list PRs (dev-tool line only)
+Steam Mcp Suite — Steam Mcp Suite.
