@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * GD-L1 Steam MCP Suite — combined Steam + itch.io storefront intelligence.
+ * Steam MCP Suite — combined Steam + itch.io storefront intelligence.
  *
  * One MCP server over stdio, read-only tools only:
  *  - Steam store: search, details, prices/discounts, reviews + NLP sentiment

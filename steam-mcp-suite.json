@@ -66,7 +66,7 @@
     ]
   },
   "launch_date": null,
-  "notes": "Lane GD-L1. Seed forks: Grinv/steam-games-mcp (4* MIT active), jhomen368/steam-reviews-mcp (3* MIT, 70-85% API cut caching), sharkusmanch/steam-mcp-server (4* MIT), petrarka/itch-jams-mcp (0* MIT). Demand: 'steam mcp' autocomplete 10/10. Mine sheet: data/research/game-dev-mine-sheet.json rank 2 (score 79).",
+  "notes": "Built from four MIT seeds (see THIRD_PARTY_NOTICES.md).",
   "direction": "d1",
   "direction_name": "ai-gamedev-tools",
   "tier": "core"
