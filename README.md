@@ -103,7 +103,3 @@ skills/       # agent skill wrapper
 MIT — see `LICENSE`. Combines MIT code from Grinv/steam-games-mcp,
 jhomen368/steam-reviews-mcp, sharkusmanch/steam-mcp-server and
 petrarka/itch-jams-mcp; attribution in `THIRD_PARTY_NOTICES.md`.
-
-## Author
-
-Maxim Konovalov — Haifa. Store intelligence + MCP tooling.
