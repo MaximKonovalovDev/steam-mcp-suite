@@ -1,4 +1,4 @@
-# Verification Report — Steam MCP Suite (GD-L1)
+# Verification Report — Steam MCP Suite
 
 Date: 2026-08-13 · Environment: Windows 11, Node v24.14.0, Python 3.13.14 (unused)
 Build path: `StudioAI/products/steam-mcp-suite/` · Full transcript: [`smoke-2026-08-13.txt`](smoke-2026-08-13.txt)
