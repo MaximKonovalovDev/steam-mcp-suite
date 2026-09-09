@@ -1,7 +1,7 @@
 {
   "name": "steam-mcp-suite",
   "version": "1.0.0",
-  "description": "GD-L1 Steam MCP Suite — combined Steam + itch.io storefront intelligence for LLM agents: store search, prices/discounts, reviews with NLP sentiment, news, wishlist & player analytics (Steam Web API key optional), and itch.io game jams (keyless).",
+  "description": "Steam MCP Suite — combined Steam + itch.io storefront intelligence for LLM agents: store search, prices/discounts, reviews with NLP sentiment, news, wishlist & player analytics (Steam Web API key optional), and itch.io game jams (keyless).",
   "type": "module",
   "license": "MIT",
   "keywords": [
