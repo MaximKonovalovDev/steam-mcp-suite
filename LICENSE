@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 AI-Studios (GD-L1 Steam MCP Suite)
+Copyright (c) 2026 Maxim Konovalov (Steam MCP Suite)
 Copyright (c) 2026 Grinv (steam-games-mcp — storefront & Web API client patterns)
 Copyright (c) 2026 Steam Reviews MCP Server Contributors (jhomen368/steam-reviews-mcp — review
   fetching, sentiment analysis, caching utilities)
@@ -25,3 +25,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
