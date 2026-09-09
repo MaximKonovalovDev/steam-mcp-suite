@@ -1,4 +1,4 @@
-# Steam MCP Suite (GD-L1)
+# Steam MCP Suite
 
 One MCP server for **Steam + itch.io storefront intelligence**: search games, prices &
 discounts, reviews with NLP sentiment (cached), news, live player counts, wishlist &
@@ -201,3 +201,4 @@ keyless-degradation path for the key-gated tools. Exit code 0 = all green.
 MIT — see [`LICENSE`](LICENSE). Combines MIT code from Grinv/steam-games-mcp,
 jhomen368/steam-reviews-mcp, sharkusmanch/steam-mcp-server and petrarka/itch-jams-mcp
 (attribution in [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)).
+
